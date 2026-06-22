@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Cards from './components/Cards'
+import './App.css'
 const App = () => {
   return (
-    <div>App
-      <h1>hello</h1>
+    <div>
+      <div className='container'>
+   <Cards />
+      </div>
     </div>
   )
 }
